@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>My Etch-A-Sketch!</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1>This is the Etch-a-Sketch master-blaster!</h1>
+				<p>Push the grid-maker-button and make it happen!</p>
+			</header>
+				<div id="tabell">
+
+				</div>
+
+			<div id="maker">
+				<input id="height" type="text">
+				<br>
+				<input id="length" type="text">
+				<br>
+				<input id="submit" type="button" value="Make It Happen!" onclick="createTable(height, length)">
+				<input id"clear" type="button" value="Clear" onclick="removeTable()"> 
+			</div>
+
+			<div class="tableDiv">
+				
+			</div>
+
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+
+</html>

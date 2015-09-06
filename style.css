@@ -1,0 +1,49 @@
+body {
+	background-color: #eaeaea;
+	border: 10px solid black;
+}
+
+header {
+	text-align: center;
+	background-color: #dcdccf;
+	margin: 5px;
+	border: 2px solid #ccccc0;
+}
+
+#maker {
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+#height {
+	margin: 2px;
+}
+
+#length {
+	margin: 2px;
+}
+
+#submit {
+	margin: 2px;
+}
+
+td {
+    border: 1px solid black;
+    width:10px; height:10px;
+}
+
+/*td:hover {
+	background-color: #a7a7a7;
+} */
+
+table {
+	border-collapse: collapse;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.black {
+	background-color: black;
+}
